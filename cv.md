@@ -2,7 +2,7 @@
 
 **Frontend developer**
 
-![My Photo](/assets/images/myPhoto.jpg)
+![My Photo](/assets/img/myPhoto.jpg)
 
 ## Contacts
 
@@ -16,7 +16,7 @@
 
 ## About me
 
-#### I love frontend and web-dev. Web-developer is my work and life in the future!
+#### I love frontend and web-dev. Web-development is my work and life in the future!
 
 ---
 
