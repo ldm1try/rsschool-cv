@@ -2,7 +2,7 @@
 
 **Frontend developer**
 
-![My Photo](/assets/images/myPhoto.jpg)
+![My Photo](/assets/img/myPhoto.jpg)
 
 ## Contacts
 
