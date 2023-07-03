@@ -1,16 +1,46 @@
 # Curriculum Vitae
 
-Содержание CV:
-Рекомендации EPAM HR department
+**Name:** Dmitry  
+**Surname:** Lesnyak
 
-Имя и фамилия
-Контакты для связи
-Краткая информация о себе (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении учиться и узнавать новое)
-Навыки (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
-Примеры кода
-Опыт работы. Junior Dev может перечислить учебные проекты с указанием использованных навыков и ссылками на исходный код.
-Образование (включая пройденные курсы и тренинги)
-Английский язык (уровень английского языка, если была языковая практика, расскажите о ней)
+![LesnyakDV](src/images/LesnyakDV.jpg)
+
+**Phone:** +7 (924) 214-63-53  
+**E-mail:** [dimm4eg@gmail.com](mailto:dimm4eg@gmail.com)  
+**Discord RS:** ldm1try
+
+## Interests
+
+I really want to do front-end and work in a good company with competent employees, so that I can do my favorite thing together, solving interesting problems. For several years now I have been partially engaged in front-end. Mastered some layout techniques and a little Javascript.
+
+## Skills
+
+JS, PHP, HTML5, CSS3, Git, Laravel Framework.
+
+## Code examples
+
+```
+document.addEventListener('DOMContentLoaded', () => {
+  let app = document.querySelector('#app')
+})
+
+console.log(app)
+
+app.style.background = "#ededed"
+app.style.padding = "5px"
+```
+
+## My projects
+
+- [Procrastination](https://github.com/ldm1try/procrastination.git)
+
+## Experience
+
+Developed websites on Bitrix CMS for city administrations.
+
+## Education
+
+Far Eastern University of Railways, specialty: Engineer of Railways.
 
 Рекомендации к составлению CV:
 оформление CV на ваше усмотрение. Старайтесь выполнить работу максимально качественно. При выборе дизайна CV можно руководствоваться примерами, приведёнными в материалах к заданию
