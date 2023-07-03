@@ -3,7 +3,7 @@
 **Name:** Dmitry  
 **Surname:** Lesnyak
 
-![LesnyakDV](src/images/LesnyakDV.jpg)
+<img src="src/images/LesnyakDV.jpg" width="200"/>
 
 **Phone:** +7 (924) 214-63-53  
 **E-mail:** [dimm4eg@gmail.com](mailto:dimm4eg@gmail.com)  
