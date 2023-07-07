@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="//fonts.gstatic.com">
+    <link
+      href="//fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
+      rel="stylesheet"
+    >
+
+    <!-- styles -->
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <!-- icons -->
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="cv">
+          <!-- header -->
+          <header class="header">
+            <div class="header__body">
+              <div class="header__body_logo">
+                <h1>CV</h1>
+              </div>
+              <div class="header__body_navS">
+                <nav class="nav">
+                  <ul>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code examples</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#english">English</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </header>
+          <!-- cv -->
+          <div class="content">
+            <div class="content__body">
+              <div class="aside">
+                <div class="name">
+                  <p>Dmitry Lesnyak</p>
+                </div>
+                <div class="photo">
+                  <img src="src/images/LesnyakDV.jpg" alt="lesnyak_dv">
+                </div>
+                <div class="contacts">
+                  <ul>
+                    <li class="contacts__item">
+                      <img
+                        src="src/images/svg/icon-phone.svg"
+                        alt="phone-icon"
+                      >
+                      <a href="tel:+79242146353" title="phone"
+                        >+7 (924) 214-63-53</a
+                      >
+                    </li>
+                    <li class="contacts__item">
+                      <img
+                        src="src/images/svg/icon-mail.svg"
+                        alt="email-icon"
+                      >
+                      <a href="mailto:dimm4eg@gmail.com" title="e-mail"
+                        >dimm4eg@gmail.com</a
+                      >
+                    </li>
+                    <li class="contacts__item">
+                      <img
+                        src="src/images/svg/icon-discord.svg"
+                        alt="discord-icon"
+                      >
+                      <a
+                        target="_blank"
+                        href="//discordapp.com/users/288319805373677568"
+                        title="discord"
+                        >discord</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="main">
+                <!-- Interests -->
+                <section class="section section__interests" id="interests">
+                  <div class="caption"><h2>Interests</h2></div>
+                  <div class="text">
+                    <p>
+                      I really want to do front-end and work in a good company
+                      with competent employees, so that I can do my favorite
+                      thing together, solving interesting problems.
+                    </p>
+                    <p>
+                      For several years now I have been partially engaged in
+                      front-end.
+                    </p>
+                    <p>
+                      Mastered some layout techniques and a little Javascript.
+                    </p>
+                  </div>
+                </section>
+                <!-- Skills -->
+                <section class="section section__skills" id="skills">
+                  <div class="caption"><h2>Skills</h2></div>
+                  <div class="text">
+                    <ul>
+                      <li>JS</li>
+                      <li>PHP</li>
+                      <li>HTML5</li>
+                      <li>CSS3</li>
+                      <li>Git</li>
+                      <li>Laravel Framework</li>
+                    </ul>
+                  </div>
+                </section>
+                <!-- Code examples -->
+                <section class="section section__code-examples" id="code">
+                  <div class="caption"><h2>Code examples</h2></div>
+                  <div class="text">
+                    <pre>
+                      <code>
+document.addEventListener('DOMContentLoaded', () => {
+  let app = document.querySelector('#app')
+})
+
+console.log(app)
+
+app.style.background = "#ededed"
+app.style.padding = "5px"
+                      </code>
+                    </pre>
+                  </div>
+                </section>
+                <!-- Projects -->
+                <section class="section section__projects" id="projects">
+                  <div class="caption"><h2>Projects</h2></div>
+                  <div class="text">
+                    <ul>
+                      <li>
+                        <a
+                          target="_blank"
+                          href="//github.com/ldm1try/procrastination.git"
+                          title="procrastination"
+                          >Procrastination</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+                <!-- Experience -->
+                <section class="section section__experience" id="experience">
+                  <div class="caption"><h2>Experience</h2></div>
+                  <div class="text">
+                    <p>
+                      Developed websites on Bitrix CMS for city administrations.
+                    </p>
+                  </div>
+                </section>
+                <!-- Education -->
+                <section class="section section__education" id="education">
+                  <div class="caption"><h2>Education</h2></div>
+                  <div class="text">
+                    <p>
+                      Far Eastern University of Railways, specialty: Engineer of
+                      Railways.
+                    </p>
+                  </div>
+                </section>
+                <!-- Education -->
+                <section class="section section__english" id="english">
+                  <div class="caption"><h2>English</h2></div>
+                  <div class="text">
+                    <p>B1 - Pre-Intermediate</p>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+          <!-- footer -->
+          <footer class="footer">
+            <div class="footer__body">
+              <div class="footer__info">
+                <span>2023</span>
+                <a target="_blank" href="//github.com/ldm1try" title="gihhub"
+                  >ldm1try</a
+                >
+              </div>
+              <div class="footer__logo">
+                <a target="_blank" href="//rs.school/js/" title="rs.school">
+                  <img src="src/images/svg/logo_rs.svg" alt="logo" >
+                </a>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
