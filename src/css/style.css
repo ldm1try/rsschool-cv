@@ -6,6 +6,9 @@
 }
 
 /* common */
+html {
+  scroll-behavior: smooth;
+}
 html,
 body {
   font-size: 16px;
@@ -31,15 +34,15 @@ body {
   height: 100%;
 }
 a {
-  transition: 0.2s ease-in-out;
-  -moz-transition: 0.2s ease-in-out;
-  -ms-transition: 0.2s ease-in-out;
-  -o-transition: 0.2s ease-in-out;
-  -webkit-transition: 0.2s ease-in-out;
+  transition: color 0.5s;
   color: var(--color-link);
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
 }
 a:hover {
-  text-decoration: underline;
+  color: #d70909 !important;
 }
 
 /* header */
