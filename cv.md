@@ -9,7 +9,7 @@ Dmitry Lesnyak<br />
 <img
   src="./src/img/LesnyakDV.png"
   alt="Dmitry Lesnyak photo"
-  width="250px"
+  width="200px"
 />
 
 ## About me
