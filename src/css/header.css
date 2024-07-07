@@ -1,0 +1,58 @@
+/* ==== HEADER.CSS ==== */
+
+header {
+  flex: 0 1;
+  padding: 30px 15px;
+  border-bottom: 1px solid var(--border-color);
+  /* position: fixed;
+  width: 900px;
+  background-color: #fff; */
+}
+
+header nav {
+  text-transform: uppercase;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  padding: 0 15px;
+}
+
+header nav ul li:first-child {
+  padding-left: 0;
+}
+
+header nav ul li:last-child {
+  padding-right: 0;
+}
+
+header nav ul li a {
+  position: relative;
+  color: var(--font-color);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+header nav ul li a:after {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 0;
+  transition: 0.3s;
+  height: 1px;
+  background: var(--border-color);
+}
+
+header nav ul li a h1 {
+  font-weight: 600;
+}
+
+header nav ul li a:hover:after {
+  width: 100%;
+}
