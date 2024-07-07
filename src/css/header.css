@@ -49,6 +49,10 @@ header nav ul li a:after {
   background: var(--border-color);
 }
 
+header nav ul li a h1 {
+  font-weight: 600;
+}
+
 header nav ul li a:hover:after {
   width: 100%;
 }
