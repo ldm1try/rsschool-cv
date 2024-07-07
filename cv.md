@@ -7,7 +7,7 @@ Dmitry Lesnyak<br />
 <!-- ![Photo Dmitry Lesnyak](./src/img/LesnyakDV.png = 250x) -->
 
 <img
-  src="./src/img/LesnyakDV.png"
+  src="./src/assets/img/LesnyakDV.png"
   alt="Dmitry Lesnyak photo"
   width="200px"
 />

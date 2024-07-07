@@ -1,0 +1,9 @@
+/* ==== STYLE.CSS ==== */
+
+/* import */
+@import url('./variables.css');
+
+html,
+body {
+  color: var(--font-color);
+}
