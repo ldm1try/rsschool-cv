@@ -1,6 +1,7 @@
 /* ==== STYLE.CSS ==== */
 
 /* import */
+@import url('./normalize.css');
 @import url('./variables.css');
 
 html,
