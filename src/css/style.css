@@ -22,7 +22,7 @@ body {
   font-size: var(--font-size);
   font-weight: 300;
   font-style: normal;
-  background-color: #fff;
+  background-color: var(--bg-main);
 }
 
 .wrapper {
