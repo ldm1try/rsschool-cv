@@ -5,11 +5,10 @@ header {
   display: flex;
   padding: 30px 15px;
   justify-content: space-between;
-
+  position: sticky;
+  top: 0;
   border-bottom: 1px solid var(--border-color);
-  /* position: fixed;
-  width: 900px;
-  background-color: #fff; */
+  background-color: var(--bg-main);
 }
 
 .header__logo {
