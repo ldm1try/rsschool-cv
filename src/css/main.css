@@ -16,6 +16,7 @@ main {
   margin: 0 0 15px 0;
   width: 100%;
   height: auto;
+  border-radius: var(--border-radius-main);
 }
 
 .photo__caption {
@@ -45,10 +46,11 @@ main {
 .content .section {
   line-height: 1.4;
   padding: 30px 15px;
+  border-radius: var(--border-radius-main);
 }
 
 .content .section:nth-child(odd) {
-  background-color: rgba(200, 200, 200, 0.1);
+  background-color: var(--bg-secondary);
 }
 
 .content .section__caption {
